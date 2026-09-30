@@ -1,7 +1,6 @@
 var http = require('http');
 
-//create a server object:
 http.createServer(function (req, res) {
-  res.write('OMG'); //write a response to the client
-  res.end(); //end the response
-}).listen(4000); //the server object listens on port 4000
+  res.write('Hello Jenkins CI/CD Update');
+  res.end();
+}).listen(4000);
